@@ -5,8 +5,38 @@
 		<link rel="icon" href="/favicon.png" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		%svelte.head%
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;700&display=swap"
+			rel="stylesheet">
+
 	</head>
 	<body>
 		<div id="svelte">%svelte.body%</div>
 	</body>
 </html>
+
+<style>
+	body{
+		margin: 0;
+		background-color: darkolivegreen;
+		font-family: 'Roboto Slab', Geneva, Tahoma, sans-serif;
+		width: 100%;
+		position: relative;
+   		min-height:100vh;
+   		background: url(holdem.jpg) no-repeat center center fixed;
+   		background-size: cover;
+		overflow: hidden;
+	}
+
+	h1{
+		font-size: 50px;
+	}
+
+	p{
+		font-size: 20px;
+	}
+
+
+</style>
